@@ -113,7 +113,7 @@ body{
                     border: 1px solid variaveis.$corDeFundoBotaoPrimario;
 
                     &:hover{
-                            background-color: lighten(variaveis.$corDeFundoBotaoPrimario, 3%);
+                            background-color: lighten($corDeFundoBotaoPrimario, 3%);
                         }
 
                     &--secondary{
@@ -121,7 +121,7 @@ body{
                         border-color: variaveis.$corDeFundoBotaoSecundario;
                     
                         &:hover{
-                            background-color: lighten(variaveis.$corDeFundoBotaoSecundario, 3%);
+                            background-color: lighten($corDeFundoBotaoSecundario, 3%);
                         }
                     }
 
